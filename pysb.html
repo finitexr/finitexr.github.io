@@ -1,0 +1,38 @@
+<html>
+<head>
+    <style>
+        body{background-color: black;
+            color: greenyellow;
+            font-family: sans-serif;
+            font-size: 16px
+                }
+        h1{color: red}
+        h2{background-color: red;color: black;border-radius: 10px 30px 30px 10px}
+    
+    </style>
+</head>
+    
+    <body>
+    
+    
+    <h1>PYTHON</h1>
+    <h2>CLIENT UDP EXTENSION-CODES ".py"</h2>
+        <xmp>import socket #importing socket module  
+
+sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)  # creating socket object for UDP reception
+sock.bind(("", 5005))   # bind port number 5005 for all devices in the local network 
+
+while True: # for ever loop
+    data_byte, addr = sock.recvfrom(1024)   # read received data byte and sender adderss 
+    word= str(data_byte,"utf-8")    # converting byte data to string (word)
+    print ("Received Command is :", word,"from",addr) # print command word and from address
+   if word= "ok"
+    print ("gud")</xmp>
+    
+    <a href="ClientUDP.aix" download>CLIENT UDP EXTENSION DOWNLOAD
+
+</a>
+    </body>
+
+
+</html>

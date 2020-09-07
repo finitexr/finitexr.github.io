@@ -1,0 +1,501 @@
+body {
+    background-color: black;
+    background-repeat: repeat;
+    background-size:cover;
+    padding: 0px 0px;
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif;
+    background-color: #ff0000;
+    padding-left: 20px;
+    border-radius: 5px 10px 30px 15px;
+}
+
+ul {
+    padding-left: 490px;
+    margin-bottom: 25px;
+} 
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    background-color: black;
+    color: red;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 10px 10px 30px 5px;
+    margin-right: 5px;
+}
+
+ul li a:hover {
+    background-color: red;
+    color: black;
+    font-size: 23px
+}
+
+ul li a i {
+    font-size: 30px;
+}
+
+div.places {
+    background-color: #ff2929;
+    border-radius: 10px 20px 45px 5px;
+    padding: 20px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+h2.placetitle {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: black;
+    color: red;
+    width: 100px;
+    border-radius: 10px 10px 30px 5px;
+    animation-name: colorhead1;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+p1 {
+    color: black;
+    font-family: sans-serif;
+    animation-name: slide1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+button {
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    border-radius: 5px 5px 15px 5px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    padding: 2px 5px;
+    margin-top: 5px;
+    margin-left: 1150px;
+    width: 150px;
+    animation-name: slide2;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+button:hover {
+    background-color: #ff0000;
+    color: black;
+}
+
+img {
+    height: 30px;
+    width: 100px;
+    padding-top: 20px
+}
+
+pre {
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    width: 50%
+}
+
+fieldset {
+    width: 370px;
+    height: 440px;
+    border: 5px solid red;
+    animation-name: come;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+legend {
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: red;
+    border-radius: 10px 10px 30px 5px;
+    color: black;
+    padding: 5px 20px 5px 10px;
+    animation-name: colorhead;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    background-color: black;
+    border-radius: 10px 30px 10px 5px;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+#check {
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    border-radius: 5px 5px 15px 5px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    padding: 2px 5px;
+    margin-top: 5px;
+    margin-left: 1150px;
+    width: 150px;
+    animation-name: slide2;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+#check:hover {
+    background-color: #ff0000;
+    color: black;
+}
+
+@keyframes color {
+    0% {
+        color: black;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+
+#java {
+    display: none
+}
+
+#html {
+    display: none
+}
+
+#css {
+    display: none
+}
+
+#exp {
+    background-color: red;
+    color: black
+}
+
+#hm {
+    background-color: red;
+    color: black;
+}
+
+#ct {
+    background-color: red;
+    color: black;
+}
+
+#pc {
+    background-color: red;
+    color: black;
+}
+
+#cn {
+    background-color: red;
+    color: black;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+#first-div {
+    width: 33%;
+    margin: 0;
+    float: left;
+}
+
+#second-div {
+    width: 33%;
+    margin: 0;
+    float: left;
+}
+
+#third-div {
+    width: 33%;
+    margin: 0;
+    float: left;
+}
+#fourth-div {
+    width: 33%;
+    margin: 0;
+    float: left;}
+
+#login {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px 5px 15px 15px;
+    font-family: sans-serif;
+    padding: 2px 5px;
+    margin-top: 250px;
+    margin-left: 500px;
+    width: 150px;
+    height: 60px;
+    animation-name: slide2;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+#login:hover {
+    background-color: #000000;
+    color: #ff0000;
+}
+
+#auth {
+    display: none;
+    width: 370px;
+    height: 180px;
+    margin-left: 40px;
+    animation-name: comea;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+#authfs {
+    height: 170px;
+    animation-name: comea;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+#authlegend {
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: black;
+    border-radius: 10px 10px 30px 5px;
+    color: red;
+    padding: 5px 20px 5px 10px;
+    animation-name: colorhead1;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+#check {
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    border-radius: 5px 5px 15px 5px;
+    font-family: sans-serif;
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-left: 255px;
+    width: 150px;
+    animation-name: slide2;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+#check:hover {
+    background-color: #ff0000;
+    color: black;
+}
+
+#pwd {
+    margin: 10px 6px;
+    background-color: red;
+    color: black;
+    padding: 10px
+}
+
+#username {
+    margin: 10px 4px;
+    background-color: red;
+    color: black;
+    padding: 10px
+}
+
+#sb {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-color: red;
+    border-radius: 40px 40px 40px 40px;
+    font-family: sans-serif;
+    padding: 2px 5px;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    animation-name: slide3;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    font-weight: bold;
+
+    
+}
+
+#sb:hover {
+    background-color: red;
+    color: black;
+}
+#sidebar{
+    display: block;
+    width: 80px;
+    position: fixed
+}
+
+#htmlsb{display: none;width: 1270px}
+#pysb{display: none;width: 1270px}
+#jssb{display: none;width: 1270px}
+#bssb{display: none;width: 1270px}
+#upsb{display: none;width: 1270px}
+
+#ldsb{width: 500px;height: auto;margin-left: 400px;}
+
+#ldsb1{width: 900px;height: auto;margin-left: 0px;}
+
+#ok{
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    border-radius: 5px 5px 15px 5px;
+    font-family: sans-serif;
+    padding: 2px 5px;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 150px;
+    animation-name: slide2;
+    animation-duration: 1s;
+    animation-iteration-count: 1
+}
+
+#path{
+    display: none;
+    color: black;
+    background-color: greenyellow;
+    border-radius: 20px 5px 5px 20px;
+    margin-left: 225px;
+    margin-top: 290px;
+    width: 100px;
+}
+@keyframes come {
+    0% {
+        height: 10px;
+        width: 300px
+    }
+    100% {
+        height: 440px;
+        width: 370px
+    }
+}
+
+@keyframes colorhead {
+    0% {
+        color: red;
+        background-color: white
+    }
+    100% {
+        color: black;
+        background-color: red
+    }
+}
+
+@keyframes comea {
+    0% {
+        height: 10px;
+        width: 300px
+    }
+    100% {
+        height: 170px;
+        width: 370px
+    }
+}
+
+@keyframes colorhead1 {
+    0% {
+        color: black;
+        background-color: red
+    }
+    100% {
+        color: red;
+        background-color: black
+    }
+}
+
+@keyframes slide {
+    0% {
+        height: 10px;
+        width: 300px
+    }
+    100% {
+        height: 107px;
+        width: 1300px
+    }
+}
+
+@keyframes slide1 {
+    0% {
+        font-size: 0px
+    }
+    90% {
+        font-size: 0px
+    }
+    100% {
+        font-size: 15px
+    }
+}
+
+@keyframes colorhead1 {
+    0% {
+        color: black;
+        background-color: red
+    }
+    100% {
+        color: red;
+        background-color: black
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        height: 1px;
+        font-size: 0px
+    }
+    100% {
+        width: 150px;
+        font-size: 15px
+    }
+}
+
+@keyframes button1 {
+    0% {
+        height: 1px;
+        font-size: 0px
+    }
+    100% {
+        width: 150px;
+        font-size: 15px
+    }
+    0% {
+        height: 1px;
+        font-size: 0px
+    }
+    100% {
+        width: 150px;
+        font-size: 15px
+    }}
